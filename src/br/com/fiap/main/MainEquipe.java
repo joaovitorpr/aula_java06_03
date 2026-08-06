@@ -16,7 +16,7 @@ public class MainEquipe {
                 quantidade =Integer.parseInt(JOptionPane.showInputDialog("Quantidade de integrantes"));
                 integrantes = new String[quantidade];
                 for (int i = 0; i < integrantes.length; i++) {
-                    integrantes[i] = JOptionPane.showInputDialog("Integrante %d", (i + 1));
+                    integrantes[i] = JOptionPane.showInputDialog(String.format("Integrante %d", (i + 1)));
                 }
                 grupo = new Equipe(nome, integrantes);
                 grupo.listarEquipe();

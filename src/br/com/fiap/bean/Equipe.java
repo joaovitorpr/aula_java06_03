@@ -6,8 +6,8 @@ public class Equipe {
     //Atributos
     private String nome;
     private String[] integrantes;
-    public Equipe(){}
     //Construtor
+    public Equipe(){}
     public Equipe(String nome, String[] integrantes) {
         this.nome = nome;
         this.integrantes = integrantes;
